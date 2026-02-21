@@ -1,0 +1,11 @@
+langgraph
+langchain
+pydantic
+sqlalchemy
+psycopg2-binary
+pandas
+pandas-profiling
+fastmcp
+openai
+anthropic
+python-dotenv

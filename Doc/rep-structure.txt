@@ -1,0 +1,20 @@
+intelligent-data-dictionary-agent/
+├── frontend/                   # UI layer (Streamlit or web frontend)
+│   ├── src/
+│   ├── public/                 # static assets
+│   ├── package.json            # frontend deps & scripts
+│   └── AGENTS.md               # frontend-specific agent guidance
+├── backend/                    # backend logic (API, connectors, processing)
+│   ├── src/
+│   ├── adapters/               # database connectors/modules
+│   ├── agents/                 # core LangGraph agent workflows
+│   ├── tests/                  # backend tests
+│   ├── package.json            # backend deps & scripts
+│   └── AGENTS.md               # backend-specific agent guidance
+├── docs/                       # general docs & design specs
+│   └── architecture.md
+├── scripts/                    # helpers: setup, deploy, build
+├── .github/                    # CI workflows
+├── README.md                  # project overview and instructions
+├── AGENTS.md                  # root agent guidance (global rules)
+└── .env.example               # example for env vars
